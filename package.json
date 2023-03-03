@@ -1,21 +1,28 @@
 {
-  "name": "@mikael-sundstrom/angular-resize-event",
-  "version": "1.0.0",
-  "description": "Angular directive to detect changes of an element size.",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm link",
-    "publish": "npm publish"
-  },
-  "keywords": [
-    "Angular",
-    "Resize",
-    "Event"
-  ],
-  "author": "Mikael-Sundstrom",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Mikael-Sundstrom/angular-resize-event"
-  }
+	"name": "@mikael-sundstrom/resize-event",
+	"version": "1.0.0",
+	"description": "Angular directive to detect changes of an element size.",
+	"scripts": {
+		"test": "npm link",
+		"publish": "npm publish --access public"
+	},
+	"keywords": [
+		"Angular",
+		"Resize",
+		"Event"
+	],
+	"peerDependencies": {
+		"@angular/common": ">= 12.2.0 < 19",
+		"@angular/core": ">= 12.2.0 < 19"
+	},
+	"author": {
+		"name": "Mikael Sundström",
+		"email": "mikaelsundstrom@outlook.com"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/Mikael-Sundstrom/angular-resize-event#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Mikael-Sundstrom/angular-resize-event"
+	}
 }

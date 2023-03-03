@@ -1,0 +1,28 @@
+{
+	"files.exclude": {
+		"**/.vscode": true,
+		"**/.gitignore": true,
+		"**/LICENSE.md": true,
+		"**/README.md": false
+	},
+	"workbench.colorTheme": "Darcula",
+	"workbench.hover.delay": 400,
+	"workbench.startupEditor": "none",
+	"editor.tabSize": 4,
+	"editor.fontSize": 16,
+	"editor.wordWrapColumn": 400,
+	"editor.linkedEditing": true,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"editor.minimap.enabled": false,
+	"editor.minimap.maxColumn": 256,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.profiles.windows": {
+		"Git Bash": {
+			"path": "C:\\Program Files\\Git\\bin\\bash.exe"
+		}
+	},
+	"angular.disableAutomaticNgcc": true,
+	"typescript.format.semicolons": "remove"
+}
